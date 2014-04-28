@@ -1,0 +1,26 @@
+.navbar{
+	min-height: 40px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	background: #A3ABC9;
+	padding-top: 40px;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 40px;
+	z-index: 1;
+}
+
+.container-fluid {
+	width: 100%;
+	position: relative;
+	top: 250px;
+	background: #A3ABC9;
+	z-index: 2;
+}
