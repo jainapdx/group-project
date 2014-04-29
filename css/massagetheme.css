@@ -13,6 +13,7 @@ div.container {
 	background: transparent;
 }
 
+
 div.container.location {
 	background: gray;
 	width: 100%;
@@ -45,8 +46,8 @@ p, div {
 }
 
 .well {
-	margin-top: 50px;
-	margin-bottom: 0px;
+	padding: 50px;
+	margin-bottom: 20px;
 }
 
 .photo {
