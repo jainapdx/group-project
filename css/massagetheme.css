@@ -1,6 +1,5 @@
 html {
-	background: red;
-  background-image: url('mooning.png');
+	background: url("https://raw.githubusercontent.com/jainapdx/group-project/jaina/img/mooning.png");
 }
 
 body {
@@ -15,7 +14,7 @@ div.container {
 }
 
 div.container.location {
-	background: green;
+	background: gray;
 	width: 100%;
 }
 
