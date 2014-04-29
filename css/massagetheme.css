@@ -1,7 +1,14 @@
 body {
+	background: green url(img/mooning.png) repeat fixed left top;
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: "Raleway", sans-serif;
+}
+
+div.container.location {
+	height: auto;
+	background: blue url(img/mooning.png) repeat fixed left top;
+	background-repeat: repeat;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
