@@ -1,14 +1,22 @@
+html {
+	background: red;
+  background-image: url('mooning.png');
+}
+
 body {
-	background: green url(img/mooning.png) repeat fixed left top;
+	background: transparent;
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: "Raleway", sans-serif;
 }
 
+div.container {
+	background: transparent;
+}
+
 div.container.location {
-	height: auto;
-	background: blue url(img/mooning.png) repeat fixed left top;
-	background-repeat: repeat;
+	background: green;
+	width: 100%;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -25,10 +33,6 @@ p, div {
   margin-bottom: 20px;
 }
 
-.theme-showcase > p > .btn {
-  margin: 5px 0;
-}
-
 .banner {
 	width: 100%;
 	border: 0px 0px;
@@ -37,8 +41,8 @@ p, div {
 }
 
 .banner img {
-	height: auto;
-	max-width: 100%;
+	margin-top: 50px;
+	width: 100%;
 }
 
 .map {
