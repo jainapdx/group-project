@@ -141,7 +141,14 @@ p, div {
   height: 100%;
 }
 
+div.socialmedia {
+	margin: 20px auto 20px auto;
+	text-align: center;
+}
 
+div.socialmedia img {
+	padding-bottom: 15px;
+}
 
 
 
