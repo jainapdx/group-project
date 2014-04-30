@@ -50,6 +50,9 @@ p, div {
 	margin: 20px auto;
 }
 
+.info {
+	float:left;
+}
 
 .photo {
 	border-radius: 50%;
