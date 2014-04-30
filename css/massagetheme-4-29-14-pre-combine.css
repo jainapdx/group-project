@@ -9,10 +9,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-body a:hover {
-	text-decoration: none;
-}
-
 div.container {
 	background: transparent;
 }
@@ -41,6 +37,10 @@ p, div {
 	position: absolute;
 	text-align: center;
 	width: 100%;
+}
+
+.header-text a:hover {
+	text-decoration: none;
 }
 
 .header-text h1 {
@@ -86,9 +86,6 @@ p, div {
 	margin: 20px auto;
 }
 
-/*.info {
-	margin: 10px;
-}*/
 
 .photo {
 	border-radius: 50%;
@@ -188,3 +185,8 @@ div.socialmedia {
 div.socialmedia img {
 	padding-bottom: 15px;
 }
+
+
+
+
+
