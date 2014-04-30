@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jane Doe Massage Therapy">
+    <meta name="description" content="Janet Majors Massage Therapy">
     <meta name="author" content="Portland Code School Team">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Jane Doe | Massage Therapy</title>
+    <title>Janet Majors | Massage Therapy</title>
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +31,7 @@
     <div class="container-fluid banner">
       <div class="row-fluid">
         <div class="span12">
-          <img src="img/banner.jpg">
+          <img src="img/banner.jpg" alt="Banner image of massage rocks.">
         </div>
       </div>
     </div>
@@ -42,11 +46,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jane Doe | Massage Therapy</a>
+          <a class="navbar-brand" href="#">Janet Majors | Massage Therapy</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#offerings">Offerings</a></li>
             <li><a href="#hours">Hours</a></li>
@@ -60,43 +63,113 @@
     </div>
 
 
-    <div class="container theme-showcase" role="main">
+    <div class="container main" role="main">
 
-    <div class="well" id="about">
-      <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="offerings">
-      <h2>Offerings</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="hours">
-      <h2>Hours</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="location">
-      <h2>Location</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="contact">
-      <h2>Contact</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="links">
-      <h2>Links</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
-    <div class="well" id="feedback">
-      <h2>Feedback</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-    </div>
+	    <div class="well" id="about">
+	      <h2>About</h2>
+	      <img class="center-block photo" src="img/janetphoto.jpg" alt="Photo of Janet Majors, Massage Therapist">
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	    </div>
 
-    <div class="well">
-      <p>Footer</p>
-    </div>
+	    <div class="well offerings" id="offerings">
+	      <h2>Offerings</h2>
+	      <p>Here is a list of services offered:</p>
+
+				<div class="row items">
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone1.jpg" alt="Stone Icon">
+	          <h3>Basic Massage</h3>
+	      		<p>One hour long basic massage. $90</p>
+	        </div>
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone2.jpg" alt="Stone Icon">
+	          <h3>Invigorating Massage</h3>
+	      		<p>Invigorating massage treatment. $90</p>
+	      	</div>
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone3.jpg" alt="Stone Icon">
+	          <h3>Relaxing Massage</h3>
+	      		<p>Relaxing massage treatment. $90</p>
+	        </div>
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone4.jpg" alt="Stone Icon">
+	          <h3>Deep Tissue Massage</h3>
+	      		<p>Deep tissue massage treatment. $120</p>
+	        </div>
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone5.jpg" alt="Stone Icon">
+	          <h3>Hot Stone Massage</h3>
+	      		<p>Massage treatment using hot stones. $150</p>
+	        </div>
+	        <div class="col-md-2">
+	        	<img class="stone pulse" src="img/stone6.jpg" alt="Stone Icon">
+	          <h3>Double Feature</h3>
+	      		<p>Massage treatment package for two individuals. $175</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="well" id="hours">
+	      <h2>Hours</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	    </div>
+	    <div class="well" id="location">
+	      <h2>Location</h2>
+	      <div class="map">
+	      	<p>We are located at:</p>
+	      		<address>
+						  <strong>Janet Majors, Massage Therapy</strong><br>
+						  1771 NW Pettygrove St<br>
+						  Suite 140<br>
+						  Portland, OR 97209<br>
+						  <abbr title="Phone">P:</abbr> (503) 555-1234
+						</address>
+	      </div>
+	      <div class="map">
+	      	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2794.871000978553!2d-122.68929589999999!3d45.53280139999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549509fc952cea4f%3A0xd5741509fe314eb!2s1771+NW+Pettygrove+St+%23140!5e0!3m2!1sen!2sus!4v1398726632666" width="400" height="300" style="border:0"></iframe>
+	      </div>
+	    </div>
+
+	    <div class="well" id="contact">
+	      <h2>Contact</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	    </div>
+	    <div class="well" id="links">
+	      <h2>Links</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	    </div>
+	    <div class="well" id="feedback">
+	      <h2>Feedback</h2>
+	      <div class="form">
+	      	<iframe src="https://docs.google.com/forms/d/1romGFq6zQKBypyLoQX8muUZX-SaVi1dmzBBdwmQnhZs/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	      </div>
+	    </div>
+
+	    <hr>
+
+		  <footer>
+		    <p>&copy; Company 2014</p>
+		  </footer>
 
 
     </div> <!-- /container -->
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-6">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+      </div>
+    </div>
+
 
 
     <!-- Bootstrap core JavaScript
