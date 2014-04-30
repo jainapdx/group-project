@@ -33,6 +33,25 @@ p, div {
   margin-bottom: 20px;
 }
 
+.header-text {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.header-text h1 {
+	margin: 120px auto 0px auto;
+	color: white;
+	text-shadow: 1px 1px gray;
+}
+
+.header-text h2 {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-shadow: 1px 1px gray;
+}
+
 .banner {
 	width: 100%;
 	border: 0px 0px;
@@ -44,6 +63,7 @@ p, div {
 	margin-top: 50px;
 	width: 100%;
 }
+
 
 .well {
 	padding: 50px;
