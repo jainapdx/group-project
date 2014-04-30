@@ -1,16 +1,36 @@
+html {
+	background: url("https://raw.githubusercontent.com/jainapdx/group-project/jaina/img/mooning.png");
+}
+
 body {
+	background: transparent;
   padding-top: 0px;
   padding-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+div.container {
+	background: transparent;
+}
+
+
+div.container.location {
+	background: gray;
+	width: 100%;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: "Raleway", sans-serif;
+}
+
+p, div {
+	font-family: "Raleway", sans-serif;
 }
 
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
   margin-bottom: 20px;
-}
-
-.theme-showcase > p > .btn {
-  margin: 5px 0;
 }
 
 .banner {
@@ -21,6 +41,109 @@ body {
 }
 
 .banner img {
-	height: auto;
-	max-width: 100%;
+	margin-top: 50px;
+	width: 100%;
 }
+
+.well {
+	padding: 50px;
+	margin: 20px auto;
+}
+
+
+.photo {
+	border-radius: 50%;
+	margin: -30px auto 20px auto;
+	max-width: 150px;
+}
+
+.offerings {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.items {
+	text-align: center;
+}
+
+.stone {
+	border-radius: 50%;
+	max-width: 100px;
+	margin: 40px auto 0 auto;
+}
+
+/* Pulse - Thank you to http://ianlunn.github.io/Hover/# */
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pulse:hover, .pulse:focus, .pulse:active {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/* End Pulse */
+
+
+.map {
+	border: 5px solid blue;
+	display: inline-block;
+	width: 420px;
+}
+
+.form {
+  position: relative;
+  padding-bottom: 55%;
+  height: 0;
+  overflow: hidden;
+	max-width: 90%;
+	min-width: 80%;
+	margin: 30px auto;
+}
+
+.form iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
