@@ -39,6 +39,10 @@ p, div {
 	width: 100%;
 }
 
+.header-text a:hover {
+	text-decoration: none;
+}
+
 .header-text h1 {
 	margin: 120px auto 0px auto;
 	color: white;
@@ -50,6 +54,18 @@ p, div {
 	margin-right: auto;
 	color: white;
 	text-shadow: 1px 1px gray;
+}
+
+.header-logo {
+	position: absolute;
+	text-align: center;
+	width: 100%
+}
+
+.header-logo img {
+	margin: 150px auto 0px auto;
+	height: 40px;
+	opacity: .5;
 }
 
 .banner {
