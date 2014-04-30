@@ -9,10 +9,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-body a:hover {
-	text-decoration: none;
-}
-
 div.container {
 	background: transparent;
 }
@@ -41,6 +37,10 @@ p, div {
 	position: absolute;
 	text-align: center;
 	width: 100%;
+}
+
+.header-text a:hover {
+	text-decoration: none;
 }
 
 .header-text h1 {
@@ -86,9 +86,6 @@ p, div {
 	margin: 20px auto;
 }
 
-/*.info {
-	margin: 10px;
-}*/
 
 .photo {
 	border-radius: 50%;
@@ -156,27 +153,10 @@ p, div {
 /* End Pulse */
 
 
-div.well.info {
-	box-shadow: none;
-	border: 0px;
-	background: transparent;
-}
-
 .map {
-  position: relative;
-  height: 320px;
-  overflow: hidden;
-	max-width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.map iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	border: 5px solid blue;
+	display: inline-block;
+	width: 420px;
 }
 
 .form {
@@ -205,3 +185,8 @@ div.socialmedia {
 div.socialmedia img {
 	padding-bottom: 15px;
 }
+
+
+
+
+
