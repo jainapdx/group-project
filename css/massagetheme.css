@@ -57,6 +57,12 @@ p, div {
 	max-width: 150px;
 }
 
+.offerings {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
 .items {
 	text-align: center;
 }
@@ -67,7 +73,7 @@ p, div {
 	margin: 40px auto 0 auto;
 }
 
-/* Pulse */
+/* Pulse - Thank you to http://ianlunn.github.io/Hover/# */
 @-webkit-keyframes pulse {
   25% {
     -webkit-transform: scale(1.1);
