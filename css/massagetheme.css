@@ -179,6 +179,10 @@ div.well.info {
   height: 100%;
 }
 
+.links p {
+	text-align: left;
+}
+
 .form {
   position: relative;
   padding-bottom: 55%;
